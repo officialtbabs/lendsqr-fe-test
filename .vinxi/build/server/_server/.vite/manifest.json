@@ -1,0 +1,56 @@
+{
+  "_index-ujMS-7Qz.js": {
+    "file": "assets/index-ujMS-7Qz.js",
+    "name": "index"
+  },
+  "src/apis/users.ts?tsr-directive-use-server=": {
+    "file": "assets/users-Dd2BMMFD.js",
+    "name": "users",
+    "src": "src/apis/users.ts?tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ujMS-7Qz.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-directive-use-server=": {
+    "file": "assets/index-DoMl8GJ3.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ujMS-7Qz.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CSpkCDC5.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ujMS-7Qz.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component&tsr-directive-use-server=": {
+    "file": "assets/index-BeuiffS4.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component&tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ujMS-7Qz.js"
+    ]
+  },
+  "virtual:$vinxi/handler/server": {
+    "file": "server.js",
+    "name": "server",
+    "src": "virtual:$vinxi/handler/server",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-directive-use-server=",
+      "src/routes/index.tsx?tsr-split=component&tsr-directive-use-server=",
+      "src/apis/users.ts?tsr-directive-use-server="
+    ]
+  }
+}
