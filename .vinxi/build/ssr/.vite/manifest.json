@@ -7,8 +7,8 @@
     "file": "assets/globalStyles-B5dUlvIu.css",
     "src": "/Users/officialtbabs/Documents/personal/lendsqr-frontend-test/src/styles/globalStyles.scss"
   },
-  "_ssr-uOiR8CuW.js": {
-    "file": "assets/ssr-uOiR8CuW.js",
+  "_ssr-BOKx8RVs.js": {
+    "file": "assets/ssr-BOKx8RVs.js",
     "name": "ssr",
     "dynamicImports": [
       "src/routes/login.tsx?tsr-split=component",
@@ -105,12 +105,12 @@
     "isDynamicEntry": true
   },
   "src/routes/customers/users/index.tsx?tsr-split=component": {
-    "file": "assets/index-aY7MS0i8.js",
+    "file": "assets/index-BBZSdCpC.js",
     "name": "index",
     "src": "src/routes/customers/users/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_ssr-uOiR8CuW.js"
+      "_ssr-BOKx8RVs.js"
     ],
     "assets": [
       "assets/users-outlined-icon-with-bg-Dyjdmzsf.svg",
@@ -130,12 +130,12 @@
     "isDynamicEntry": true
   },
   "src/routes/login.tsx?tsr-split=component": {
-    "file": "assets/login-Z-tt-AqU.js",
+    "file": "assets/login-CBlsEcWv.js",
     "name": "login",
     "src": "src/routes/login.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_ssr-uOiR8CuW.js"
+      "_ssr-BOKx8RVs.js"
     ]
   },
   "virtual:$vinxi/handler/ssr": {
@@ -144,7 +144,7 @@
     "src": "virtual:$vinxi/handler/ssr",
     "isEntry": true,
     "imports": [
-      "_ssr-uOiR8CuW.js"
+      "_ssr-BOKx8RVs.js"
     ]
   }
 }

@@ -12,13 +12,26 @@ import LoanRequestsIcon from "~/assets/svgs/icons/loan-requests-icon.svg";
 import WhitelistIcons from "~/assets/svgs/icons/whitelist-icon.svg";
 import KarmaIcons from "~/assets/svgs/icons/karma-icon.svg";
 
+import OrganizationIcon from "~/assets/svgs/icons/organization-icon.svg";
+import SavingsProductIcons from "~/assets/svgs/icons/savings-product-icon.svg";
+import FeeAndChargesIcons from "~/assets/svgs/icons/fees-and-charges-icon.svg";
+import TransactionIcons from "~/assets/svgs/icons/transaction-icon.svg";
+import ServiceIcons from "~/assets/svgs/icons/service-icon.svg";
+import ServiceAccountIcons from "~/assets/svgs/icons/service-account-icon.svg";
+import SettlementIcons from "~/assets/svgs/icons/settlement-icon.svg";
+import ReportIcons from "~/assets/svgs/icons/report-icon.svg";
+
+import PreferencesIcons from "~/assets/svgs/icons/preferences-icon.svg";
+import FeesAndPricingIcons from "~/assets/svgs/icons/fees-and-pricing.svg";
+import AuditLogsIcons from "~/assets/svgs/icons/audit-logs.svg";
+
 interface MainLayoutProps {
   children: ReactNode;
 }
 
 const MainLayout: NamedExoticComponent<MainLayoutProps> = memo(
   ({ children }) => {
-    const customerNavItems: NavItem[] = [
+    const customersNavItems: NavItem[] = [
       { name: "Users", path: "/customers/users", iconPath: UsersIcon },
       {
         name: "Guarantors",
@@ -45,6 +58,54 @@ const MainLayout: NamedExoticComponent<MainLayoutProps> = memo(
       { name: "Karma", path: "/customers/karma", iconPath: KarmaIcons },
     ];
 
+    const businessesNavItems: NavItem[] = [
+      {
+        name: "Organizations",
+        path: "/businesses/organizations",
+        iconPath: OrganizationIcon,
+      },
+      {
+        name: "Loan Products",
+        path: "/businesses/loan-products",
+        iconPath: LoanRequestsIcon,
+      },
+      {
+        name: "Savings Products",
+        path: "/businesses/service-products",
+        iconPath: SavingsProductIcons,
+      },
+      {
+        name: "Fees and Charges",
+        path: "/businesses/fees-and-charges",
+        iconPath: FeeAndChargesIcons,
+      },
+      {
+        name: "Transactions",
+        path: "/businesses/transactions",
+        iconPath: TransactionIcons,
+      },
+      {
+        name: "Services",
+        path: "/businesses/services",
+        iconPath: ServiceIcons,
+      },
+      {
+        name: "Settlements",
+        path: "/businesses/settlements",
+        iconPath: SettlementIcons,
+      },
+      {
+        name: "Service Account",
+        path: "/businesses/service-account",
+        iconPath: ServiceAccountIcons,
+      },
+      {
+        name: "Reports",
+        path: "/businesses/resports",
+        iconPath: ReportIcons,
+      },
+    ];
+
     return (
       <div className="mainLayoutContainer">
         <div className="mainLayoutHeader">
@@ -66,7 +127,7 @@ const MainLayout: NamedExoticComponent<MainLayoutProps> = memo(
               <h5>Customers</h5>
             </div>
 
-            {customerNavItems.map((item) => (
+            {customersNavItems.map((item) => (
               <Link key={item.name} to={item.path} className="navItemContainer">
                 <img src={item.iconPath} alt="dashboard icon" className="" />
 
@@ -78,16 +139,39 @@ const MainLayout: NamedExoticComponent<MainLayoutProps> = memo(
               <h5>Businessess</h5>
             </div>
 
-            <button type="button" className="navItemContainer">
-              <img src={DashboardIcon} alt="dashboard icon" className="" />
+            {businessesNavItems.map((item) => (
+              <Link key={item.name} to={item.path} className="navItemContainer">
+                <img src={item.iconPath} alt="dashboard icon" className="" />
 
-              <p>Settings</p>
-            </button>
-            <button type="button" className="navItemContainer">
-              <img src={DashboardIcon} alt="dashboard icon" className="" />
+                <p>{item.name}</p>
+              </Link>
+            ))}
 
-              <p>Logout</p>
-            </button>
+            <div className="navSectionTitleContainer">
+              <h5>Settings</h5>
+            </div>
+
+            <Link to="/settings/preferences" className="navItemContainer">
+              <img src={PreferencesIcons} alt="dashboard icon" className="" />
+
+              <p>Preferences</p>
+            </Link>
+
+            <Link to="/settings/fees-and-pricing" className="navItemContainer">
+              <img
+                src={FeesAndPricingIcons}
+                alt="dashboard icon"
+                className=""
+              />
+
+              <p>Fees and Pricing</p>
+            </Link>
+
+            <Link to="/settings/audit-logs" className="navItemContainer">
+              <img src={AuditLogsIcons} alt="dashboard icon" className="" />
+
+              <p>Audit Logs</p>
+            </Link>
           </div>
 
           <div className="navContentContainer">{children}</div>

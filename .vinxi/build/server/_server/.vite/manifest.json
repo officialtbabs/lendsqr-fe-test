@@ -27,11 +27,11 @@
     "src": "virtual:$vinxi/handler/server",
     "isEntry": true,
     "dynamicImports": [
-      "src/apis/auth.ts?tsr-directive-use-server=",
-      "src/apis/auth.ts?tsr-directive-use-server=",
-      "src/apis/auth.ts?tsr-directive-use-server=",
       "src/apis/users.ts?tsr-directive-use-server=",
-      "src/apis/users.ts?tsr-directive-use-server="
+      "src/apis/users.ts?tsr-directive-use-server=",
+      "src/apis/auth.ts?tsr-directive-use-server=",
+      "src/apis/auth.ts?tsr-directive-use-server=",
+      "src/apis/auth.ts?tsr-directive-use-server="
     ]
   }
 }

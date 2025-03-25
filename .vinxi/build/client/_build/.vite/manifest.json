@@ -13,8 +13,8 @@
     "src": "__vite-browser-external",
     "isDynamicEntry": true
   },
-  "_client-o9IHXq84.js": {
-    "file": "assets/client-o9IHXq84.js",
+  "_client-CFjOEikz.js": {
+    "file": "assets/client-CFjOEikz.js",
     "name": "client",
     "dynamicImports": [
       "__vite-browser-external",
@@ -59,102 +59,102 @@
     "src": "src/assets/svgs/icons/users-with-saving-outlined-icon-with-bg.svg"
   },
   "src/routes/customers/guarantors/index.tsx?tsr-split=component": {
-    "file": "assets/index-3CznwujK.js",
+    "file": "assets/index-DWxSRD3o.js",
     "name": "index",
     "src": "src/routes/customers/guarantors/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/guarantors/route.tsx?tsr-split=component": {
-    "file": "assets/route-Dbgm7Afd.js",
+    "file": "assets/route-DdtkkKyX.js",
     "name": "route",
     "src": "src/routes/customers/guarantors/route.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/route.tsx?tsr-split=component": {
-    "file": "assets/route-Cjgxjqfq.js",
+    "file": "assets/route-CMczJK0i.js",
     "name": "route",
     "src": "src/routes/customers/route.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/users/$userId/app-and-system.tsx?tsr-split=component": {
-    "file": "assets/app-and-system-B5MiPKv5.js",
+    "file": "assets/app-and-system-Ca30O_cJ.js",
     "name": "app-and-system",
     "src": "src/routes/customers/users/$userId/app-and-system.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/users/$userId/bank-details.tsx?tsr-split=component": {
-    "file": "assets/bank-details-aprywaYr.js",
+    "file": "assets/bank-details-DUctaR7b.js",
     "name": "bank-details",
     "src": "src/routes/customers/users/$userId/bank-details.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/users/$userId/details.tsx?tsr-split=component": {
-    "file": "assets/details-XNcLvAMr.js",
+    "file": "assets/details-Dc8RTTVd.js",
     "name": "details",
     "src": "src/routes/customers/users/$userId/details.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/users/$userId/documents.tsx?tsr-split=component": {
-    "file": "assets/documents-MZdo7EpK.js",
+    "file": "assets/documents-sbVV23r8.js",
     "name": "documents",
     "src": "src/routes/customers/users/$userId/documents.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/users/$userId/loans.tsx?tsr-split=component": {
-    "file": "assets/loans-DN7QbgNW.js",
+    "file": "assets/loans-CLg2-t4t.js",
     "name": "loans",
     "src": "src/routes/customers/users/$userId/loans.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/users/$userId/route.tsx?tsr-split=component": {
-    "file": "assets/route-CZZmtQMC.js",
+    "file": "assets/route-D9Tj2J3r.js",
     "name": "route",
     "src": "src/routes/customers/users/$userId/route.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/users/$userId/savings.tsx?tsr-split=component": {
-    "file": "assets/savings-BDYTC1wq.js",
+    "file": "assets/savings-U1jWPSRC.js",
     "name": "savings",
     "src": "src/routes/customers/users/$userId/savings.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/customers/users/index.tsx?tsr-split=component": {
-    "file": "assets/index-DSgRX2CV.js",
+    "file": "assets/index-BiXNZWo0.js",
     "name": "index",
     "src": "src/routes/customers/users/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js",
+      "_client-CFjOEikz.js",
       "_utils-km2FGkQ4.js"
     ],
     "assets": [
@@ -163,40 +163,40 @@
     ]
   },
   "src/routes/customers/users/route.tsx?tsr-split=component": {
-    "file": "assets/route-DEo7wPbX.js",
+    "file": "assets/route-B0HYkwT6.js",
     "name": "route",
     "src": "src/routes/customers/users/route.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-Cx-8gvPX.js",
+    "file": "assets/index-CojrbmaS.js",
     "name": "index",
     "src": "src/routes/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   },
   "src/routes/login.tsx?tsr-split=component": {
-    "file": "assets/login-BwY0YF-x.js",
+    "file": "assets/login-5lOq-iYM.js",
     "name": "login",
     "src": "src/routes/login.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_client-o9IHXq84.js",
+      "_client-CFjOEikz.js",
       "_utils-km2FGkQ4.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-Db1Peaqn.js",
+    "file": "assets/client-BQ4l6HKF.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-o9IHXq84.js"
+      "_client-CFjOEikz.js"
     ]
   }
 }
