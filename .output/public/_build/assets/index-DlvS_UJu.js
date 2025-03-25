@@ -1,1 +1,0 @@
-import{j as e,a as o,R as r,c as t}from"./client-C8-8zTWZ.js";import{M as s}from"./MainLayout-B9GDrS40.js";import"./lendsqr-logo-Dm91HNax.js";const a=()=>e.jsx("div",{children:"Welcome to Dashbord"});t("src_routes_index_tsx--updateCount_createServerFn_handler","/_server");const p=function(){return o(),r.useLoaderData(),e.jsx(s,{children:e.jsx(a,{})})};export{p as component};

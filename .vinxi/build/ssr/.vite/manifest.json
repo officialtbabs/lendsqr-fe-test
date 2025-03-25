@@ -4,32 +4,32 @@
     "src": "/Users/officialtbabs/Documents/personal/lendsqr-frontend-test/src/styles/defaultStyles.scss"
   },
   "/Users/officialtbabs/Documents/personal/lendsqr-frontend-test/src/styles/globalStyles.scss": {
-    "file": "assets/globalStyles-CmekQS9-.css",
+    "file": "assets/globalStyles-B5dUlvIu.css",
     "src": "/Users/officialtbabs/Documents/personal/lendsqr-frontend-test/src/styles/globalStyles.scss"
   },
-  "_MainLayout-xLM6ec4D.js": {
-    "file": "assets/MainLayout-xLM6ec4D.js",
-    "name": "MainLayout",
-    "imports": [
-      "_lendsqr-logo-Dm91HNax.js"
-    ]
-  },
-  "_lendsqr-logo-Dm91HNax.js": {
-    "file": "assets/lendsqr-logo-Dm91HNax.js",
-    "name": "lendsqr-logo"
-  },
-  "_ssr-D-Ljs-EB.js": {
-    "file": "assets/ssr-D-Ljs-EB.js",
+  "_ssr-uOiR8CuW.js": {
+    "file": "assets/ssr-uOiR8CuW.js",
     "name": "ssr",
     "dynamicImports": [
       "src/routes/login.tsx?tsr-split=component",
+      "src/routes/customers/route.tsx?tsr-split=component",
       "src/routes/index.tsx?tsr-split=component",
+      "src/routes/customers/users/route.tsx?tsr-split=component",
+      "src/routes/customers/guarantors/route.tsx?tsr-split=component",
       "src/routes/customers/users/index.tsx?tsr-split=component",
-      "src/routes/customers/users/$userId.tsx?tsr-split=component"
+      "src/routes/customers/guarantors/index.tsx?tsr-split=component",
+      "src/routes/customers/users/$userId/route.tsx?tsr-split=component",
+      "src/routes/customers/users/$userId/savings.tsx?tsr-split=component",
+      "src/routes/customers/users/$userId/loans.tsx?tsr-split=component",
+      "src/routes/customers/users/$userId/documents.tsx?tsr-split=component",
+      "src/routes/customers/users/$userId/details.tsx?tsr-split=component",
+      "src/routes/customers/users/$userId/bank-details.tsx?tsr-split=component",
+      "src/routes/customers/users/$userId/app-and-system.tsx?tsr-split=component"
     ],
     "assets": [
+      "assets/login-illustration-BW319DUi.png",
       "assets/defaultStyles-JvAT5Qo4.css",
-      "assets/globalStyles-CmekQS9-.css"
+      "assets/globalStyles-B5dUlvIu.css"
     ]
   },
   "src/assets/illustrations/login-illustration.png": {
@@ -44,48 +44,98 @@
     "file": "assets/users-with-saving-outlined-icon-with-bg-D9zEYrB0.svg",
     "src": "src/assets/svgs/icons/users-with-saving-outlined-icon-with-bg.svg"
   },
-  "src/routes/customers/users/$userId.tsx?tsr-split=component": {
-    "file": "assets/_userId-rBvWWJkY.js",
-    "name": "_userId",
-    "src": "src/routes/customers/users/$userId.tsx?tsr-split=component",
+  "src/routes/customers/guarantors/index.tsx?tsr-split=component": {
+    "file": "assets/index-Tr4Wq16X.js",
+    "name": "index",
+    "src": "src/routes/customers/guarantors/index.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/guarantors/route.tsx?tsr-split=component": {
+    "file": "assets/route-Ch-NsIKU.js",
+    "name": "route",
+    "src": "src/routes/customers/guarantors/route.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/route.tsx?tsr-split=component": {
+    "file": "assets/route-BCnNEv89.js",
+    "name": "route",
+    "src": "src/routes/customers/route.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/users/$userId/app-and-system.tsx?tsr-split=component": {
+    "file": "assets/app-and-system-m5U1dbS5.js",
+    "name": "app-and-system",
+    "src": "src/routes/customers/users/$userId/app-and-system.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/users/$userId/bank-details.tsx?tsr-split=component": {
+    "file": "assets/bank-details-CRSrFACY.js",
+    "name": "bank-details",
+    "src": "src/routes/customers/users/$userId/bank-details.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/users/$userId/details.tsx?tsr-split=component": {
+    "file": "assets/details-5MItGnJ2.js",
+    "name": "details",
+    "src": "src/routes/customers/users/$userId/details.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/users/$userId/documents.tsx?tsr-split=component": {
+    "file": "assets/documents-CnT3Unl6.js",
+    "name": "documents",
+    "src": "src/routes/customers/users/$userId/documents.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/users/$userId/loans.tsx?tsr-split=component": {
+    "file": "assets/loans-BD1FPAsk.js",
+    "name": "loans",
+    "src": "src/routes/customers/users/$userId/loans.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/users/$userId/route.tsx?tsr-split=component": {
+    "file": "assets/route-BZyZQwCT.js",
+    "name": "route",
+    "src": "src/routes/customers/users/$userId/route.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "src/routes/customers/users/$userId/savings.tsx?tsr-split=component": {
+    "file": "assets/savings-C4wTVs5R.js",
+    "name": "savings",
+    "src": "src/routes/customers/users/$userId/savings.tsx?tsr-split=component",
     "isDynamicEntry": true
   },
   "src/routes/customers/users/index.tsx?tsr-split=component": {
-    "file": "assets/index-BK-_22lQ.js",
+    "file": "assets/index-aY7MS0i8.js",
     "name": "index",
     "src": "src/routes/customers/users/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_MainLayout-xLM6ec4D.js",
-      "_ssr-D-Ljs-EB.js",
-      "_lendsqr-logo-Dm91HNax.js"
+      "_ssr-uOiR8CuW.js"
     ],
     "assets": [
       "assets/users-outlined-icon-with-bg-Dyjdmzsf.svg",
       "assets/users-with-saving-outlined-icon-with-bg-D9zEYrB0.svg"
     ]
   },
+  "src/routes/customers/users/route.tsx?tsr-split=component": {
+    "file": "assets/route-MG7KYeiH.js",
+    "name": "route",
+    "src": "src/routes/customers/users/route.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
   "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-Jf4VeJS4.js",
+    "file": "assets/index-Cj6DXZt7.js",
     "name": "index",
     "src": "src/routes/index.tsx?tsr-split=component",
-    "isDynamicEntry": true,
-    "imports": [
-      "_MainLayout-xLM6ec4D.js",
-      "_ssr-D-Ljs-EB.js",
-      "_lendsqr-logo-Dm91HNax.js"
-    ]
+    "isDynamicEntry": true
   },
   "src/routes/login.tsx?tsr-split=component": {
-    "file": "assets/login-CYS27opq.js",
+    "file": "assets/login-Z-tt-AqU.js",
     "name": "login",
     "src": "src/routes/login.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_lendsqr-logo-Dm91HNax.js"
-    ],
-    "assets": [
-      "assets/login-illustration-BW319DUi.png"
+      "_ssr-uOiR8CuW.js"
     ]
   },
   "virtual:$vinxi/handler/ssr": {
@@ -94,7 +144,7 @@
     "src": "virtual:$vinxi/handler/ssr",
     "isEntry": true,
     "imports": [
-      "_ssr-D-Ljs-EB.js"
+      "_ssr-uOiR8CuW.js"
     ]
   }
 }

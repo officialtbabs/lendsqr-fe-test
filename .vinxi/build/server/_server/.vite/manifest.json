@@ -3,40 +3,19 @@
     "file": "assets/index-ujMS-7Qz.js",
     "name": "index"
   },
+  "src/apis/auth.ts?tsr-directive-use-server=": {
+    "file": "assets/auth-B_7Lv1yj.js",
+    "name": "auth",
+    "src": "src/apis/auth.ts?tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ujMS-7Qz.js"
+    ]
+  },
   "src/apis/users.ts?tsr-directive-use-server=": {
-    "file": "assets/users-Dd2BMMFD.js",
+    "file": "assets/users-DbhrG1uc.js",
     "name": "users",
     "src": "src/apis/users.ts?tsr-directive-use-server=",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-ujMS-7Qz.js"
-    ]
-  },
-  "src/routes/index.tsx?tsr-directive-use-server=": {
-    "file": "assets/index-DoMl8GJ3.js",
-    "name": "index",
-    "src": "src/routes/index.tsx?tsr-directive-use-server=",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-ujMS-7Qz.js"
-    ],
-    "dynamicImports": [
-      "src/routes/index.tsx?tsr-split=component"
-    ]
-  },
-  "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-CSpkCDC5.js",
-    "name": "index",
-    "src": "src/routes/index.tsx?tsr-split=component",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-ujMS-7Qz.js"
-    ]
-  },
-  "src/routes/index.tsx?tsr-split=component&tsr-directive-use-server=": {
-    "file": "assets/index-BeuiffS4.js",
-    "name": "index",
-    "src": "src/routes/index.tsx?tsr-split=component&tsr-directive-use-server=",
     "isDynamicEntry": true,
     "imports": [
       "_index-ujMS-7Qz.js"
@@ -48,8 +27,10 @@
     "src": "virtual:$vinxi/handler/server",
     "isEntry": true,
     "dynamicImports": [
-      "src/routes/index.tsx?tsr-directive-use-server=",
-      "src/routes/index.tsx?tsr-split=component&tsr-directive-use-server=",
+      "src/apis/auth.ts?tsr-directive-use-server=",
+      "src/apis/auth.ts?tsr-directive-use-server=",
+      "src/apis/auth.ts?tsr-directive-use-server=",
+      "src/apis/users.ts?tsr-directive-use-server=",
       "src/apis/users.ts?tsr-directive-use-server="
     ]
   }
