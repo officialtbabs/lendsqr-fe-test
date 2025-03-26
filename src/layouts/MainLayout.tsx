@@ -9,21 +9,23 @@ import LoansIcon from "~/assets/svgs/icons/loans-icon.svg";
 import DecisionModelsIcon from "~/assets/svgs/icons/decision-models-icon.svg";
 import SavingsIcon from "~/assets/svgs/icons/savings-icon.svg";
 import LoanRequestsIcon from "~/assets/svgs/icons/loan-requests-icon.svg";
-import WhitelistIcons from "~/assets/svgs/icons/whitelist-icon.svg";
-import KarmaIcons from "~/assets/svgs/icons/karma-icon.svg";
+import WhitelistIcon from "~/assets/svgs/icons/whitelist-icon.svg";
+import KarmaIcon from "~/assets/svgs/icons/karma-icon.svg";
 
 import OrganizationIcon from "~/assets/svgs/icons/organization-icon.svg";
-import SavingsProductIcons from "~/assets/svgs/icons/savings-product-icon.svg";
-import FeeAndChargesIcons from "~/assets/svgs/icons/fees-and-charges-icon.svg";
-import TransactionIcons from "~/assets/svgs/icons/transaction-icon.svg";
-import ServiceIcons from "~/assets/svgs/icons/service-icon.svg";
-import ServiceAccountIcons from "~/assets/svgs/icons/service-account-icon.svg";
-import SettlementIcons from "~/assets/svgs/icons/settlement-icon.svg";
-import ReportIcons from "~/assets/svgs/icons/report-icon.svg";
+import SavingsProductIcon from "~/assets/svgs/icons/savings-product-icon.svg";
+import FeeAndChargesIcon from "~/assets/svgs/icons/fees-and-charges-icon.svg";
+import TransactionIcon from "~/assets/svgs/icons/transaction-icon.svg";
+import ServiceIcon from "~/assets/svgs/icons/service-icon.svg";
+import ServiceAccountIcon from "~/assets/svgs/icons/service-account-icon.svg";
+import SettlementIcon from "~/assets/svgs/icons/settlement-icon.svg";
+import ReportIcon from "~/assets/svgs/icons/report-icon.svg";
 
-import PreferencesIcons from "~/assets/svgs/icons/preferences-icon.svg";
-import FeesAndPricingIcons from "~/assets/svgs/icons/fees-and-pricing.svg";
-import AuditLogsIcons from "~/assets/svgs/icons/audit-logs.svg";
+import PreferencesIcon from "~/assets/svgs/icons/preferences-icon.svg";
+import FeesAndPricingIcon from "~/assets/svgs/icons/fees-and-pricing.svg";
+import AuditLogsIcon from "~/assets/svgs/icons/audit-logs.svg";
+
+import NotificationIcon from "~/assets/svgs/icons/notification-icon.svg";
 
 interface MainLayoutProps {
   children: ReactNode;
@@ -53,9 +55,9 @@ const MainLayout: NamedExoticComponent<MainLayoutProps> = memo(
       {
         name: "Whitelist",
         path: "/customers/whitelist",
-        iconPath: WhitelistIcons,
+        iconPath: WhitelistIcon,
       },
-      { name: "Karma", path: "/customers/karma", iconPath: KarmaIcons },
+      { name: "Karma", path: "/customers/karma", iconPath: KarmaIcon },
     ];
 
     const businessesNavItems: NavItem[] = [
@@ -72,37 +74,37 @@ const MainLayout: NamedExoticComponent<MainLayoutProps> = memo(
       {
         name: "Savings Products",
         path: "/businesses/service-products",
-        iconPath: SavingsProductIcons,
+        iconPath: SavingsProductIcon,
       },
       {
         name: "Fees and Charges",
         path: "/businesses/fees-and-charges",
-        iconPath: FeeAndChargesIcons,
+        iconPath: FeeAndChargesIcon,
       },
       {
         name: "Transactions",
         path: "/businesses/transactions",
-        iconPath: TransactionIcons,
+        iconPath: TransactionIcon,
       },
       {
         name: "Services",
         path: "/businesses/services",
-        iconPath: ServiceIcons,
+        iconPath: ServiceIcon,
       },
       {
         name: "Settlements",
         path: "/businesses/settlements",
-        iconPath: SettlementIcons,
+        iconPath: SettlementIcon,
       },
       {
         name: "Service Account",
         path: "/businesses/service-account",
-        iconPath: ServiceAccountIcons,
+        iconPath: ServiceAccountIcon,
       },
       {
         name: "Reports",
         path: "/businesses/resports",
-        iconPath: ReportIcons,
+        iconPath: ReportIcon,
       },
     ];
 
@@ -112,7 +114,20 @@ const MainLayout: NamedExoticComponent<MainLayoutProps> = memo(
           <div className="logoContainer">
             <img src={LendSqrLogo} alt="lendsqr icon" className="logo" />
           </div>
-          <div></div>
+
+          <div className="notificationAndProfileContainer">
+            <p>Docs</p>
+            <img
+              src={NotificationIcon}
+              alt="notification icon"
+              // className="logo"
+            />
+            <div className="headerProfileCard">
+              <img src={""} alt="profile image" className="logo" />
+
+              <p>Adedeji</p>
+            </div>
+          </div>
         </div>
 
         <div className="mainLayoutContent">
@@ -152,23 +167,19 @@ const MainLayout: NamedExoticComponent<MainLayoutProps> = memo(
             </div>
 
             <Link to="/settings/preferences" className="navItemContainer">
-              <img src={PreferencesIcons} alt="dashboard icon" className="" />
+              <img src={PreferencesIcon} alt="dashboard icon" className="" />
 
               <p>Preferences</p>
             </Link>
 
             <Link to="/settings/fees-and-pricing" className="navItemContainer">
-              <img
-                src={FeesAndPricingIcons}
-                alt="dashboard icon"
-                className=""
-              />
+              <img src={FeesAndPricingIcon} alt="dashboard icon" className="" />
 
               <p>Fees and Pricing</p>
             </Link>
 
             <Link to="/settings/audit-logs" className="navItemContainer">
-              <img src={AuditLogsIcons} alt="dashboard icon" className="" />
+              <img src={AuditLogsIcon} alt="dashboard icon" className="" />
 
               <p>Audit Logs</p>
             </Link>
