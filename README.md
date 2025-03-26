@@ -77,7 +77,7 @@ The application is deployed and can be accessed at:
 
 ## 📽️ Loom Video Review
 
-[🔗 Watch the Video Explanation](LOOM_VIDEO_LINK_HERE)
+[🔗 Watch the Video Explanation](https://www.loom.com/share/212c02cbb534486599994826560fd61b?sid=48b78a10-bcf8-46d0-9e9d-8ded7e03122d)
 
 ---
 
