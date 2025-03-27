@@ -73,7 +73,7 @@ The application is deployed and can be accessed at:
 
 ## 📌 GitHub Repository
 
-[🔗 Lendsqr FE Test GitHub Repo](https://github.com/taiwobabarinde/lendsqr-fe-test)
+[🔗 Lendsqr FE Test GitHub Repo](https://github.com/officialtbabs/lendsqr-fe-test)
 
 ## 📽️ Loom Video Review
 
